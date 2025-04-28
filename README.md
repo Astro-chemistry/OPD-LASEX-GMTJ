@@ -26,7 +26,7 @@ A full data reduction pipeline in Python is available, and the instrument is now
 
 ## Project Science Focus
 
-Our observing program focuses on studying **34 Milky Way analog galaxies** to better understand the distribution of **dark matter** in galaxies similar to our own.  
+Our observing program focuses on studying **50 Milky Way analog galaxies** to better understand the distribution of **dark matter** in galaxies similar to our own.  
 By combining SPARC4's multi-band imaging with deep infrared data, we perform detailed stellar population analyses to decompose rotation curves and isolate the dark matter contribution.
 
 ---
@@ -38,7 +38,7 @@ We currently provide **three Jupyter Notebooks**, each designed to streamline a 
 | Notebook | Purpose | Link |
 |:---------|:--------|:-----|
 | **Finders** | Generate finder charts for galaxies to preview morphology and size before observations. | [Finders.ipynb](./Finders.ipynb) |
-| **amostraOPD** | Filter and select galaxies for the sample, excluding targets already observed in previous cycles. | [amostraOPD.ipynb](./amostraOPD.ipynb) |
+| **OPDsample** | Filter and select galaxies for the sample, excluding targets already observed in previous cycles. | [OPDsample.ipynb](./aOPDsample.ipynb) |
 | **Counts** | Calculate the exposure time needed to achieve the desired signal-to-noise ("contagem") for each target. | [Counts.ipynb](./Counts.ipynb) |
 
 We also provide a **galaxy list file** ([S4G_1.csv](./S4G_1.csv)) needed by the Finders notebook.
