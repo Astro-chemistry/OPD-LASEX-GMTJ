@@ -38,15 +38,21 @@ We currently provide **three Jupyter Notebooks**, each designed to streamline a 
 | Notebook | Purpose | Link |
 |:---------|:--------|:-----|
 | **Finders** | Generate finder charts for galaxies to preview morphology and size before observations. | [Finders.ipynb](./Finders.ipynb) |
-| **OPDsample** | Filter and select galaxies for the sample, excluding targets already observed in previous cycles. | [OPDsample.ipynb](./aOPDsample.ipynb) |
+| **OPDsample** | Filter and select galaxies for the sample, excluding targets already observed in previous cycles. | [aOPDsample.ipynb](./aOPDsample.ipynb) |
 | **Counts** | Calculate the exposure time needed to achieve the desired signal-to-noise ("contagem") for each target. | [Counts.ipynb](./Counts.ipynb) |
 
-We also provide a **galaxy list file** ([S4G_1.csv](./S4G_1.csv)) needed by the Finders notebook.
+---
 
-## Guide Spreadsheet
+## Additional Resources
 
-You can download and use the example spreadsheet as a guide:
-[![Spreadsheet](https://img.shields.io/badge/Download-Spreadsheet-blue?logo=microsoft-excel)](./Example Spreadsheet.csv)
+In addition to the notebooks, we provide supporting documents:
+
+| Resource | Description | Link |
+|:---------|:------------|:-----|
+| **S4G Galaxy List** | The list of galaxies from the S4G survey, used in the Finders tool. | [S4G_1.csv](./S4G_1.csv) |
+| **Example Spreadsheet** | A template to guide users in structuring their own target lists for observations. | [![Download Spreadsheet](https://img.shields.io/badge/Download-Spreadsheet-blue?logo=microsoft-excel)](./Example%20Spreadsheet.csv)
+
+
 
 
 ---
