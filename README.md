@@ -51,7 +51,6 @@ In addition to the notebooks, we provide supporting documents:
 |:---------|:------------|:-----|
 | **S4G Galaxy List** | The list of galaxies from the S4G survey, used in the Finders tool. | [S4G_1.csv](./S4G_1.csv) |
 | **Example Spreadsheet** | A template to guide users in structuring their own target lists for observations. | [![Download Spreadsheet](https://img.shields.io/badge/Download-Spreadsheet-blue?logo=microsoft-excel)](./Example%20Spreadsheet.csv)
-| **Dithering Guide** | A visual reference for the dithering strategy. | ![Dithering Guide](./Dithering_guide.png) |
 
 
 
