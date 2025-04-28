@@ -39,7 +39,7 @@ We currently provide **three Jupyter Notebooks**, each designed to streamline a 
 |:---------|:--------|:-----|
 | **Finders** | Generate finder charts for galaxies to preview morphology and size before observations. | [Finders.ipynb](./Finders.ipynb) |
 | **OPDsample** | Filter and select galaxies for the sample, excluding targets already observed in previous cycles. | [OPDsample.ipynb](./OPDsample.ipynb) |
-| **Counts** | Calculate the exposure time needed to achieve the desired signal-to-noise ("contagem") for each target. | [Counts.ipynb](./Counts.ipynb) |
+| **Counts** | Calculate the exposure time needed to achieve the desired signal-to-noise ("contagem") for each target. It needs to be no less than 20% of 60000 maximum at OPD (i.e. 24000) and no more than 60% of this value (36000). The closer to 36000 counts you get, the better signal-to-noise you achieve. | [Counts.ipynb](./Counts.ipynb) |
 
 ---
 
