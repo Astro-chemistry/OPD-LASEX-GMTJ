@@ -46,7 +46,7 @@ We also provide a **galaxy list file** ([S4G_1.csv](./S4G_1.csv)) needed by the 
 ## Guide Spreadsheet
 
 You can download and use the example spreadsheet as a guide:
-[![Spreadsheet](https://img.shields.io/badge/Download-Spreadsheet-blue?logo=microsoft-excel)](./exemplo.xlsx)
+[![Spreadsheet](https://img.shields.io/badge/Download-Spreadsheet-blue?logo=microsoft-excel)](./Example Spreadsheet.csv)
 
 
 ---
