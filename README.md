@@ -1,6 +1,6 @@
 # OPD-LASEX-GMTJ Tools
 
-Welcome to the repository for tools developed by the **LASEX/OV** group (Gabriel Pampolha, Juan Maldonado, Maria Cavalcante, Thiago Bueno) during observations at the Observatório do Pico dos Dias (OPD), specifically for the **SPARC4** instrument on the 1.6m telescope.  
+Welcome to the repository for tools developed by the **LASEX/OV** group during observations at the Observatório do Pico dos Dias (OPD), specifically for the **SPARC4** instrument on the 1.6m telescope.  
 This repository is intended to assist current and future observers in efficiently planning, selecting, and analyzing extragalactic targets.
 
 ---
@@ -26,7 +26,7 @@ A full data reduction pipeline in Python is available, and the instrument is now
 
 ## Project Science Focus
 
-Our observing program focuses on studying **XX Milky Way analog galaxies** to better understand the distribution of **dark matter** in galaxies similar to our own.  
+Our observing program focuses on studying **34 Milky Way analog galaxies** to better understand the distribution of **dark matter** in galaxies similar to our own.  
 By combining SPARC4's multi-band imaging with deep infrared data, we perform detailed stellar population analyses to decompose rotation curves and isolate the dark matter contribution.
 
 ---
@@ -51,6 +51,38 @@ We also provide a **galaxy list file** ([S4G_1.csv](./S4G_1.csv)) needed by the 
 
 ---
 
+## Contributions
+
+Contributions to this repository are very welcome!  
+You can:
+
+- Open Issues with feature requests, bugs, or suggestions.
+- Submit Pull Requests with improvements, new notebooks, or corrections.
+- Fork the repository and adapt the tools for your own observing runs (just don't forget to give credit).
+
+Future upgrades may include new tools for data reduction and advanced planning features.
+
+---
+
+## Contact
+
+For questions, feedback, or collaboration opportunities, feel free to contact the maintainers or reach out to the group:
+
+- [LASEX/OV official website](http://lasex-valongo.com)
+
+Or open an Issue directly here on GitHub.
+
+---
+
+## Authors
+
+- **Gabriel Pampolha**
+- **Juan Maldonado**
+- **Maria Cavalcante**
+- **Thiago Bueno**
+
+---
+
 ## Installation
 
 Clone the repository and install the dependencies listed in `requirements.txt`:
@@ -59,3 +91,13 @@ Clone the repository and install the dependencies listed in `requirements.txt`:
 git clone https://github.com/Astro-cat-mistry/OPD-LASEX-GMTJ.git
 cd OPD-LASEX-GMTJ
 pip install -r requirements.txt
+
+
+Clone the repository and install the dependencies listed in `requirements.txt`:
+
+```bash
+git clone https://github.com/Astro-cat-mistry/OPD-LASEX-GMTJ.git
+cd OPD-LASEX-GMTJ
+pip install -r requirements.txt
+
+
