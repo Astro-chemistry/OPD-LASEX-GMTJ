@@ -44,7 +44,6 @@ We currently provide **four Jupyter Notebooks**, each designed to streamline a s
 | **Finders** | Generate finder charts for galaxies to preview morphology and size before observations. | [Finders.ipynb](./Finders.ipynb) |
 | **amostraOPD** | Filter and select galaxies for the sample, excluding targets already observed in previous cycles. | [amostraOPD.ipynb](./amostraOPD.ipynb) |
 | **Counts** | Calculate the exposure time needed to achieve the desired signal-to-noise ("contagem") for each target. | [Counts.ipynb](./Counts.ipynb) |
-| **(Fourth Notebook)** | (Add quick description here if needed) | (Link here) |
 
 We also provide a **list file** needed by the Finders notebook to work correctly. | [S4G_1.csv](./S4G_1.csv) |
 
