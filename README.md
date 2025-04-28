@@ -38,7 +38,7 @@ We currently provide **three Jupyter Notebooks**, each designed to streamline a 
 | Notebook | Purpose | Link |
 |:---------|:--------|:-----|
 | **Finders** | Generate finder charts for galaxies to preview morphology and size before observations. | [Finders.ipynb](./Finders.ipynb) |
-| **OPDsample** | Filter and select galaxies for the sample, excluding targets already observed in previous cycles. | [aOPDsample.ipynb](./aOPDsample.ipynb) |
+| **OPDsample** | Filter and select galaxies for the sample, excluding targets already observed in previous cycles. | [OPDsample.ipynb](./OPDsample.ipynb) |
 | **Counts** | Calculate the exposure time needed to achieve the desired signal-to-noise ("contagem") for each target. | [Counts.ipynb](./Counts.ipynb) |
 
 ---
