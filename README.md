@@ -1,9 +1,7 @@
 # OPD-LASEX-GMTJ Tools
 
-Welcome to the repository for tools developed by the **LASEX/OV** group during observations at the Observatório do Pico dos Dias (OPD), specifically for the **SPARC4** instrument on the 1.6m telescope.  
+Welcome to the repository for tools developed by the **LASEX/OV** group (Gabriel Pampolha, Juan Maldonado, Maria Cavalcante, Thiago Bueno) during observations at the Observatório do Pico dos Dias (OPD), specifically for the **SPARC4** instrument on the 1.6m telescope.  
 This repository is intended to assist current and future observers in efficiently planning, selecting, and analyzing extragalactic targets.
-
-Made by Gabriel Pampolha, Juan Maldonado, Maria Cavalcante and Thiago Bueno
 
 ---
 
@@ -20,7 +18,7 @@ Learn more about our group here: [lasex-valongo.com](http://lasex-valongo.com)
 
 ## About SPARC4
 
-**SPARC4** (Simultaneous Polarimeter and Rapid Camera in 4 bands) is an instrument installed on the 1.6m telescope at OPD, developed through a collaboration between INPE and LNA.  
+**SPARC4** (Simultaneous Polarimeter and Rapid Camera in 4 bands) is a new instrument installed on the 1.6m telescope at OPD, developed through a collaboration between INPE and LNA.  
 Since its first light in 2022, SPARC4 has been successfully commissioned and is now fully operational, offering simultaneous imaging in four optical bands (**griz**) and polarimetry capabilities.  
 A full data reduction pipeline in Python is available, and the instrument is now an official facility of OPD starting from semester **2024A**.
 
@@ -28,16 +26,14 @@ A full data reduction pipeline in Python is available, and the instrument is now
 
 ## Project Science Focus
 
-Our observing program focuses on studying **Milky Way analog galaxies** to better understand the distribution of **dark matter** in galaxies similar to our own.  
+Our observing program focuses on studying **XX Milky Way analog galaxies** to better understand the distribution of **dark matter** in galaxies similar to our own.  
 By combining SPARC4's multi-band imaging with deep infrared data, we perform detailed stellar population analyses to decompose rotation curves and isolate the dark matter contribution.
-
-The sample includes **XX MW analogs**, and this repository contains the tools developed to plan, select, and analyze this sample.
 
 ---
 
 ## Available Tools
 
-We currently provide **four Jupyter Notebooks**, each designed to streamline a specific part of the observing and data preparation workflow:
+We currently provide **three Jupyter Notebooks**, each designed to streamline a specific part of the observing and data preparation workflow:
 
 | Notebook | Purpose | Link |
 |:---------|:--------|:-----|
@@ -45,7 +41,7 @@ We currently provide **four Jupyter Notebooks**, each designed to streamline a s
 | **amostraOPD** | Filter and select galaxies for the sample, excluding targets already observed in previous cycles. | [amostraOPD.ipynb](./amostraOPD.ipynb) |
 | **Counts** | Calculate the exposure time needed to achieve the desired signal-to-noise ("contagem") for each target. | [Counts.ipynb](./Counts.ipynb) |
 
-We also provide a **list file** needed by the Finders notebook to work correctly. | [S4G_1.csv](./S4G_1.csv) |
+We also provide a **galaxy list file** ([S4G_1.csv](./S4G_1.csv)) needed by the Finders notebook.
 
 ---
 
